@@ -1,0 +1,20 @@
+body {
+
+    /*background:papayaWhip*/
+    background: #CBE7C7;
+    font-family: Georgia, sans-serif;
+}
+
+div.side-by-side {
+    display: flex;
+}
+
+img {
+    width: 59%;
+    max-width: 500px;
+}
+
+.featureBlock {
+    background-color:pink;
+    font-size: smaller;
+}
