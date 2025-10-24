@@ -1,19 +1,66 @@
 body {
 
     /*background:papayaWhip*/
-    background: #CBE7C7;
+    background: #F8F7F4;
     font-family: Georgia, sans-serif;
+    margin:3em 3em 3em 3em;
+}
+head {
+  margin: 0;
+  padding: 0;
 }
 
+h2, p {
+  margin: 10px;
+}
+
+#navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #F8F7F4;
+  display: flex;
+}
+
+ul li a {
+  display: block;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #D5B893;
+}
 div.side-by-side {
     display: flex;
 }
+
+#title {
+    display:block;
+    padding:1em 1em;
+    font-size:6em
+    }
 
 img {
     width: 59%;
     max-width: 500px;
 }
-
+#headshot {
+    width: 59%;
+    max-width: 500px;
+    padding: 1em
+}
+bio {
+/* I could not figure out what I was missing, I wanted each paragraph to take up 30% of the screen when left aligned/* */
+    display:block;
+    width:30%;
+    height:30%;
+}
+#skills {
+    background-color: #617891;
+    padding:4em;
+}
 .featureBlock {
     background-color:pink;
     font-size: smaller;
