@@ -51,10 +51,29 @@ img {
     max-width: 500px;
     padding: 1em
 }
-img.careermaps.png{
-    width: 100%;
-    max-width: 100%;
+#careermaps{
+
+    display: block;
+    width: 200%;
+    max-width: 1000px;
     height: auto;
+    
+}
+#safeselect{
+
+    display: block;
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    
+}
+#legenderie{
+
+    display: block;
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    
 }
 bio {
 /* I could not figure out what I was missing, I wanted each paragraph to take up 30% of the screen when left aligned/* */
