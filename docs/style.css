@@ -85,6 +85,15 @@ bio {
     background-color: #617891;
     padding:4em;
 }
+#trigram{
+    display:flex;
+}
+#firstngram {
+    display:flex;
+}
+#theusa {
+    display:flex;
+}
 .featureBlock {
     background-color:pink;
     font-size: smaller;
