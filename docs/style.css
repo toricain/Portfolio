@@ -87,12 +87,15 @@ bio {
 }
 #trigram{
     display:flex;
+    width: 100%;
 }
 #firstngram {
     display:flex;
+    width: 100%;
 }
 #theusa {
     display:flex;
+    width: 100%;
 }
 .featureBlock {
     background-color:pink;
