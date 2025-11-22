@@ -85,17 +85,25 @@ bio {
     background-color: #617891;
     padding:4em;
 }
+#twogram{
+    display:flex;
+    width: 80%;
+}
+#twogramcontx{
+    display:flex;
+    width: 80%;
+}
 #trigram{
     display:flex;
-    width: 100%;
+    width: 70%;
 }
 #firstngram {
     display:flex;
-    width: 100%;
+    width: 80%;
 }
-#theusa {
+#clouds {
     display:flex;
-    width: 100%;
+    width: 80%;
 }
 .featureBlock {
     background-color:pink;

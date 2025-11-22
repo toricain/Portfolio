@@ -26,22 +26,51 @@
             <p>To view my Wordpress site, click <a href="https://sites.psu.edu/toricain/"> here</a>.</p>
         </div>
         <div style="margin-top: 2em; margin-right: 10em; margin-bottom: 2em; margin-left: 10em;">
-            <h2>Comparative Analysis of Text Corpora</h2>
-            <p>For this comparative analysis, I am looking at an Obama Corpus and a Trump Corpus.</p>
-            <p>There are many similar 3 word n-grams between both Obama and Trump</p>
-            <figure id="trigram">
-                <img src="images/ngram3obama.png"/>
-                <img src="images/ngram3trump.png"/>
+            <h2>Context Matters: An Analysis of Obama and Trump's Public Speeches</h2>
+            <p>For this comparative analysis, I am looking at a "Barack Obama Corpus" and a "Donald Trump Corpus", both compiled from public speeches given over the years. Going into this analysis, I was expecting to find a difference in each corpus, specifically surrounding goals and policy because of their differing political parties. For this analysis, I looked at 2, 3, 5, and 7 grams, as well as word clouds produced in Voyant tools to compare and contrast. I also looked at the context around each of the n-grams and overall textual context. From this, I was able to gather evidence that while political figures might use similar language overall, the context in which it is used is important in determining their motivations, beliefs, and policies. This was evident as I dug deep into 2 and 3 word n-grams, how it translated over to 5 and 7-grams, and ultimately was revealed through Voyant's word clouds.</p>
+          
+            <p>After doing some general orientation to each of the corpora, I collected the most popular 2 word n-grams for both Obama and Trump. </p>
+            
+            <figure id="twogram" style="aligncenter">
+                <p><i>Obama</i></p>
+                <img src="images/obama2gram.png" style= "padding : 3em"/>
+                <p><i>Trump</i></p>
+                <img src="images/twogtrump.png" style= "padding : 3em"/>
             </figure>
-            <p>One of the 3 word n-grams is "men and women", which looks different with the surrounding context for both Obama and Trump.</p>
-            <figure id="firstngram">
-                <img src="images/menandwomenobama.png"/>
-                <img src="images/menandwomentrump.png"/>
+            
+            <p>When taking a first glance at the n-gram clusters of two, it immediately jumped out to me that the first two most frequent n-grams were "in the" and "of the". The rest of the n-grams that they share involve inclusive and motivating language using words like "we will", "we have", "the world", and "our". These were similarities I did not expect to see, but make sense given that both of them are political figures urging change in policies and government within the United States. It only makes sense to have a motivating and inclusive tone.</p>
+            
+            <p>I took a closer look at the specific 2 word n-gram "the world" for both Obama and Trump. I wanted to see if the n-gram's that were the same had consistency in context as well.</p>
+            
+            <figure id="twogramcontx" style="aligncenter">
+                <img src="images/obama2gr.png" style= "padding : 1em"/>
+                <img src="images/trump2gram.png" style= "padding : 1em"/>
             </figure>
-            <figure id="theusa">
-                <img src="images/theunitedstatesobama.png"/>
-                <img src="images/theunitedstatestrump.png"/>
+            
+            <p>On the left is Obama's left and right context for "the world" and on the right is Trump's corresponding context.</p>
+            <p>In the context provided in Obama's corpus, Obama talks about leading the world in technological advancements, education, avoiding war, the middle east, and how the world has changed. On the other hand, Trump's context shows that he talks about the world trade center, showing never before seen movements to the world, trade, illegal immigration, and terrorism. Both of these results taken together show the difference in world view, call to action, and political views.</p>
+            <p>There are fewer similar 3 word n-grams between both Obama and Trump that I had found as well, only being 2.</p>
+            <figure id="trigram" style="aligncenter">
+                <p><i>Obama</i></p>
+                <img src="images/ngram3obama.png" style= "padding : 2em"/>
+                <p><i>Trump</i></p>
+                <img src="images/ngram3trump.png" style= "padding : 2em"/>
             </figure>
+            <p>One of the 3 word n-grams is "men and women", which looks moderately the same with the surrounding context for both Obama and Trump.</p>
+            <figure id="firstngram" style="aligncenter">
+                <img src="images/menandwomenobama.png" style= "padding : 1em"/>
+                <img src="images/menandwomentrump.png" style= "padding : 1em"/>
+            </figure>
+            <p>This context can be explained as maybe a common way to address the police force and military, as both Obama and Trump used the tri-gram in the same way. Wording such as "of law enforcement", "in uniform", "armed forces", and "military" are used in the surrounding context for both.</p>
+          <p>Past tri-grams, there is not much to be found in a perfect comparison/contrast for 5 and 7 n-grams that I have not already covered. When I had checked 5 word n-grams, similarity was there in the phrasing which I chalked up to be term of phrase that cannot be ammended too much within some of these speeches. However, surrounding context did prove that their policies and beliefs remained the same.</p>
+            <p>I ended up moving my analyses over to Voyant Tools to see if both Obama and Trump's beliefs and views could be pulled from their word clouds as well. To do this, I looked at two speeches similar in age: Obama, 2016 (left) and Trump, 2017 (right).</p>
+            
+            <figure id="clouds" style="aligncenter">
+                <img src="images/obamacloud.png" style= "padding : 1em"/>
+                <img src="images/trumpcloud.png" style= "padding : 1em"/>
+            </figure>
+            <p>The main takeaway I got from Obama's word cloud is that his main ideas center around families, community, the working class, the future, and change. Its very clear once all of the filler words are removed by Voyant Tools compared to AntConc.</p>
+        <p>On the other hand, I was able to gather from Trump's word cloud that his main beliefs center around the country of the United States of America, its citizens (which is very specific language, and different from Obama), the government, companies, immigration, giving thanks, and talking about concepts of time. This is all slightly different from what Obama is centered around, and both of which make sense for what they have put forth into policy.</p>
         </div>
     </body>
 </html>
