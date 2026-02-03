@@ -1,0 +1,53 @@
+Tori Cain
+2/3/26
+REGEX Autotagging
+
+(completed clean up/set up by taking care of ampersands, spacing, whitespace, conversion of run time to numbers)
+
+1--
+FIND:
+^title\tyear\tcountry\truntime$
+REPLACE:
+<xml>
+<header>title	year	country	runtime</header>
+
+2--
+FIND (multiline):
+^(.+)$
+REPLACE:
+<movie>$1</movie>
+
+
+3--
+FIND:
+<movie>([^\t]+)\t
+REPLACE:
+<movie><title>$1</title>
+
+
+4--
+FIND:
+</title>(\d{4})\t
+REPLACE:
+</title><date>$1</date>
+
+
+5--
+FIND:
+</date>([^\t]+)\t
+REPLACE:
+</date><country>$1</country>
+
+
+6--
+FIND:
+</country>(\d+) min</movie>
+REPLACE:
+</country><runTime unit="min">$1</runTime></movie>
+
+
+7--
+FIND:
+\Z
+REPLACE:
+</xml>
