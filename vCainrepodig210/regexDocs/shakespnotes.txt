@@ -1,0 +1,24 @@
+2/5/26
+Tori Cain
+Regex 2-Shakespere sonnets
+
+FIND:&
+RP:&amp;
+
+FIND: <
+RP: &lt;
+
+FIND: >
+RP: &gt;
+
+FIND:.+
+RP: <line>\0</line>
+
+FIND:<line>\s*([IVXLC]+)\s*</line>
+RP:</sonnet><sonnet number="\1">
+
+Manually got rid of extra </sonnet> at beginning and added it at the end
+
+Manually added <xml></xml> to the document 
+
+Manually added tags for title and author at the top

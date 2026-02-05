@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 760">
+   <text x="250"
+         y="30"
+         text-anchor="middle"
+         font-size="20"
+         font-weight="bold">
+                Pokemon Moves by Category
+            </text>
+   <g transform="translate(100 700)">
+      <rect x="0"
+            y="-129.7644539614561"
+            width="60"
+            height="129.7644539614561026"
+            fill="#A8A77A"/>
+      <text x="100" y="-632" font-size="12">normal:
+                        202</text>
+      <rect x="0"
+            y="-180.51391862955032"
+            width="60"
+            height="50.7494646680942184"
+            fill="#F95587"/>
+      <text x="100" y="-614" font-size="12">psychic:
+                        79</text>
+      <rect x="0"
+            y="-220.3426124197002"
+            width="60"
+            height="39.8286937901498928"
+            fill="#7AC74C"/>
+      <text x="100" y="-596" font-size="12">grass:
+                        62</text>
+      <rect x="0"
+            y="-256.9593147751606"
+            width="60"
+            height="36.6167023554603852"
+            fill="#C22E28"/>
+      <text x="100" y="-578" font-size="12">fighting:
+                        57</text>
+      <rect x="0"
+            y="-291.00642398286936"
+            width="60"
+            height="34.0471092077087796"
+            fill="#705746"/>
+      <text x="100" y="-560" font-size="12">dark:
+                        53</text>
+      <rect x="0"
+            y="-325.05353319057815"
+            width="60"
+            height="34.0471092077087796"
+            fill="#6390F0"/>
+      <text x="100" y="-542" font-size="12">water:
+                        53</text>
+      <rect x="0"
+            y="-357.17344753747324"
+            width="60"
+            height="32.1199143468950748"
+            fill="#F7D02C"/>
+      <text x="100" y="-524" font-size="12">electric:
+                        50</text>
+      <rect x="0"
+            y="-388.6509635974304"
+            width="60"
+            height="31.4775160599571734"
+            fill="#EE8130"/>
+      <text x="100" y="-506" font-size="12">fire:
+                        49</text>
+      <rect x="0"
+            y="-413.70449678800856"
+            width="60"
+            height="25.0535331905781582"
+            fill="#B7B7CE"/>
+      <text x="100" y="-488" font-size="12">steel:
+                        39</text>
+      <rect x="0"
+            y="-436.830835117773"
+            width="60"
+            height="23.126338329764454"
+            fill="#A33EA1"/>
+      <text x="100" y="-470" font-size="12">poison:
+                        36</text>
+      <rect x="0"
+            y="-458.6723768736617"
+            width="60"
+            height="21.8415417558886512"
+            fill="#D685AD"/>
+      <text x="100" y="-452" font-size="12">fairy:
+                        34</text>
+      <rect x="0"
+            y="-480.51391862955035"
+            width="60"
+            height="21.8415417558886512"
+            fill="#A6B91A"/>
+      <text x="100" y="-434" font-size="12">bug:
+                        34</text>
+      <rect x="0"
+            y="-502.355460385439"
+            width="60"
+            height="21.8415417558886512"
+            fill="#735797"/>
+      <text x="100" y="-416" font-size="12">ghost:
+                        34</text>
+      <rect x="0"
+            y="-523.5546038543897"
+            width="60"
+            height="21.1991434689507492"
+            fill="#96D9D6"/>
+      <text x="100" y="-398" font-size="12">ice:
+                        33</text>
+      <rect x="0"
+            y="-543.4689507494646"
+            width="60"
+            height="19.9143468950749464"
+            fill="#A98FF3"/>
+      <text x="100" y="-380" font-size="12">flying:
+                        31</text>
+      <rect x="0"
+            y="-563.3832976445395"
+            width="60"
+            height="19.9143468950749464"
+            fill="#E2BF65"/>
+      <text x="100" y="-362" font-size="12">ground:
+                        31</text>
+      <rect x="0"
+            y="-583.2976445396145"
+            width="60"
+            height="19.9143468950749464"
+            fill="#6F35FC"/>
+      <text x="100" y="-344" font-size="12">dragon:
+                        31</text>
+      <rect x="0"
+            y="-599.9999999999999"
+            width="60"
+            height="16.7023554603854388"
+            fill="#B6A136"/>
+      <text x="100" y="-326" font-size="12">rock:
+                        26</text>
+   </g>
+</svg>
