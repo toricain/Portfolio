@@ -1,0 +1,18 @@
+2/10/26
+Tori Cain
+Mulan Regex
+
+FIND:&
+RP:&amp;
+
+FIND: <
+RP: &lt;
+
+FIND: >
+RP: &gt;
+
+FIND: \n\s*\n+
+RP: </sp>
+<sp>
+
+added tags at bottom and top for xml and sp tags that weren't grabbed
